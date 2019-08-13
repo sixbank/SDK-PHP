@@ -43,7 +43,7 @@ composer require sixbank/php-sdk-gateway
 
         // Set PAYMENT
         $transaction->Payment()
-            ->setAcquirer(Acquirers::CIELO_V3)
+            ->setAcquirer(Acquirers::SIXBANK)
             ->setMethod(Methods::CREDIT_CARD_INTEREST_BY_ISSUER)
             ->setCurrency(Currency::BRAZIL_BRAZILIAN_REAL_BRL)
             ->setCountry("BRA")
@@ -178,7 +178,7 @@ $transaction->Customer()
 
 // Set PAYMENT
 $transaction->Payment()
-    ->setAcquirer(Acquirers::CIELO_V3)
+    ->setAcquirer(Acquirers::SIXBANK)
     ->setMethod(Methods::CREDIT_CARD_INTEREST_BY_ISSUER)
     ->setCurrency(Currency::BRAZIL_BRAZILIAN_REAL_BRL)
     ->setCountry("BRA")
