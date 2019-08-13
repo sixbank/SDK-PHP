@@ -4,8 +4,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "Bruno Paz",
-      "email": "bruno.paz@tradeupgroup.com"
+      "name": "SixBank",
+      "email": "developer@sixbank.net"
     }
   ],
   "license": "MIT",
@@ -20,3 +20,4 @@
     "ext-json": "*"
   }
 }
+
