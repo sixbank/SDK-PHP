@@ -16,6 +16,10 @@ Recursos disponíveis
 - Tokenização de cartões
 
 ---
+## Instalação via Composer
+```
+composer require sixbank/php-sdk-gateway
+```
 
 ## Cartão de crédito (Exemplo) 
 ```php
