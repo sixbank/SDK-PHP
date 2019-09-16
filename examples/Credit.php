@@ -14,7 +14,7 @@ use Exception as Exception;
 
 
 try {
-    $credential = new Credential("1", "d41d8cd98f00b204e9800998ecf8427e",
+    $credential = new Credential("{{mechantID}}", "{{mechantKEY}}",
         Environment::SANDBOX);
     $gateway    = new Gateway($credential);
 
