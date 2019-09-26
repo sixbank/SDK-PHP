@@ -21,7 +21,7 @@ class Payment implements \JsonSerializable
     /**
      * @var
      */
-    private $tokenCard;
+    private $tokenCard = false;
     /**
      * @var
      */
