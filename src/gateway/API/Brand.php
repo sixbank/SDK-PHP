@@ -20,7 +20,7 @@
         const AURA       = "aura";
         const JCB        = "jcb";
         const HIPERCARD  = "hipercard";
-        const HYPERCARD  = "hipercard";
+        const HYPERCARD  = "hipercard"; // alias hipercard
         const SOROCRED   = "sorocred";
         const CABAL      = "cabal";
         const MAESTRO    = "maestro";
