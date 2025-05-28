@@ -263,7 +263,8 @@ $response = $gateway->Rebill($transaction);
 |ADIQ|Acquirers::ADIQ|
 |WORLDPAY|Acquirers::WORLDPAY|      
 |GRANITO|Acquirers::GRANITO|      
-|SIXBANK|Acquirers::SIXBANK|                          
+|SIXBANK|Acquirers::SIXBANK|       
+|SIXBANK PSP|Acquirers::SIXBANK_PSP| 
 
 ### Códigos das bandeiras de cartões
 |Nome|Constante|
